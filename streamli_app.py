@@ -75,7 +75,6 @@ streamlit.header("The fruit load list contains:")
 streamlit.dataframe(my_data_row)
 
 
-streamlit.header("Fruityvice Fruit Advice!")
 
 add_my_fruit = streamlit.text_input('What fruit would you like to add?',Jack Fruit)
 streamlit.write('Thanks for adding ', add_my_fruit)  #adda text entry box and send input to fruity vice as part of api call
