@@ -76,7 +76,7 @@ streamlit.dataframe(my_data_row)
 
 
 
-add_my_fruit = streamlit.text_input('What fruit would you like to add?',Jack Fruit)
+add_my_fruit = streamlit.text_input('What fruit would you like to add?','Jack Fruit')
 streamlit.write('Thanks for adding ', add_my_fruit)  #adda text entry box and send input to fruity vice as part of api call
 
 import requests
